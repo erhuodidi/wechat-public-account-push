@@ -66,6 +66,20 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "DmrIqVy3kzg8lo2-fhdsOKq_T80fImJThLv7h_iGYCw",
       // 所在省份
+      
+       
+    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        
+      ]
+    },
+    {
+      name: "自己",
+      id: "o4wK852YH91xh6J2huezUZKCPBUg",
+      useTemplateId: "pSb7gbMDOaWkcgnOG6kKuEp_-k0EPw-3PK71RXYc58U",
       province: "广东",
       // 所在城市
       city: "广州",
@@ -80,55 +94,12 @@ export const config = {
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "杰杰", "year": "1994", "date": "01-14"},
         {"type": "节日", "name": "100天 纪念日", "year": "2022", "date": "10-05"},
-       
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        
-      ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 被搭讪的日子
+      customizedDateList: [// 被搭讪的日子
         {"keyword": "love_day", date: "2022-06-27"},
         // 在一起纪念日
         {"keyword": "marry_day", date: "2022-07-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
-      ]
-    },
-    {
-      name: "自己",
-      id: "o4wK852YH91xh6J2huezUZKCPBUg",
-      useTemplateId: "pSb7gbMDOaWkcgnOG6kKuEp_-k0EPw-3PK71RXYc58U",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+        {"keyword": "ex_day", date: "2022-09-10"},]
     },
     // 你可以不断按格式往下增加
     // ...
