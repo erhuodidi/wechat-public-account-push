@@ -90,8 +90,8 @@ export const config = {
         // 在一起纪念日
         {"keyword": "marry_day", date: "2022-07-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},] ,
-    },
+        {"keyword": "ex_day", date: "2022-09-10"},] 
+    }
     {
       name: "自己",
       id: "o4wK852YH91xh6J2huezUZKCPBUg",
@@ -117,7 +117,7 @@ export const config = {
         {"keyword": "marry_day", date: "2022-07-09"},
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},],
-    },
+    }
     // 你可以不断按格式往下增加
     // ...
   ],
