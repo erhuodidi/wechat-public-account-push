@@ -97,7 +97,7 @@ export const config = {
       name: "自己",
       id: "o4wK852YH91xh6J2huezUZKCPBUg",
       useTemplateId: "s2JYjlFVhFBBthk6ziBmr3XYkiLtLhnYqoPOJDYxsV8",
-      useTemplateId: "pSb7gbMDOaWkcgnOG6kKuEp_-k0EPw-3PK71RXYc58U",
+      useTemplateId: "ZAbpYI28A4ySm969O1qasHgOmPS5y3veugbl0fWl33M",
       // 所在省份
       province: "广东",
       // 所在城市
