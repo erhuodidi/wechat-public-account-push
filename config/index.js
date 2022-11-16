@@ -80,8 +80,7 @@ export const config = {
       // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "杰杰", "year": "1994", "date": "01-14"},
         {"type": "节日", "name": "100天 纪念日", "year": "2022", "date": "10-05"},
-      // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        
+      // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号 
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -90,7 +89,8 @@ export const config = {
         // 在一起纪念日
         {"keyword": "marry_day", date: "2022-07-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},] 
+        {"keyword": "ex_day", date: "2022-09-10"},
+      ] 
     },
     {
       name: "自己",
@@ -109,14 +109,16 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "杰杰", "year": "1994", "date": "01-14"},
-        {"type": "节日", "name": "100天 纪念日", "year": "2022", "date": "10-05"},]
+        {"type": "节日", "name": "100天 纪念日", "year": "2022", "date": "10-05"},
+      ]
       customizedDateList: [
       // 被搭讪的日子
         {"keyword": "love_day", date: "2022-06-27"},
         // 在一起纪念日
         {"keyword": "marry_day", date: "2022-07-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},],
+        {"keyword": "ex_day", date: "2022-09-10"},
+      ]
     }
     // 你可以不断按格式往下增加
     // ...
