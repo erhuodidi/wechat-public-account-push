@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id:"o4wK85yY1Zg7bUOBnsvnBIltu7IM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "DmrIqVy3kzg8lo2-fhdsOKq_T80fImJThLv7h_iGYCw",
+      useTemplateId: "ZAbpYI28A4ySm969O1qasHgOmPS5y3veugbl0fWl33M",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -79,7 +79,7 @@ export const config = {
       festivals: [
       // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "杰杰", "year": "1994", "date": "01-14"},
-        {"type": "节日", "name": "100天 纪念日", "year": "2022", "date": "10-05"},
+        {"type": "节日", "name": "500天 纪念日", "year": "2023", "date": "11-09"},
       // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号 
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -91,12 +91,11 @@ export const config = {
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},
       ] 
-    },
+      },
     
       {
       name: "自己",
       id: "o4wK852YH91xh6J2huezUZKCPBUg",
-      useTemplateId: "s2JYjlFVhFBBthk6ziBmr3XYkiLtLhnYqoPOJDYxsV8",
       useTemplateId: "ZAbpYI28A4ySm969O1qasHgOmPS5y3veugbl0fWl33M",
       // 所在省份
       province: "广东",
